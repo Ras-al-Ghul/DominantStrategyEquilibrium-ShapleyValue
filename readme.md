@@ -5,12 +5,14 @@
 To run `python DSE.py <input nfg filename>`  
 
 This is python code to find a strongly as well as weakly dominant strategy equilibrium of `any n person matrix form game`. (For input, generate games of `.nfg` file format of `gambit`) <http://www.gambit-project.org/gambit14/formats.html>  
+
+**Input file format:**  
 Please note that the input nfg file shouldn't have a trailing space.  
 Also, we've used `zero based indexing` The numbering starts from zero.  
 The first line should contain the game name, and the second line should have the player names, followed by the number of strategies of each player.  
 Third line should be blank, and the 4th line should contain all the payoffs as stated for nfg files on the Gambit website.  
 Please ensure that there are no trailing spaces for the program to function properly.  
-An `example.nfg` has also been provided which has a `Strongly Dominant Strategy Equilibrium` at strategy 1 (second strategy) for Player1, strategy 2 (third strategy) for Player 2 and strategy 3 (fourth strategy) for Player 3.  
+An `example.nfg` has also been provided which has a `Strongly Dominant Strategy Equilibrium` at strategy 1 (second strategy) for Player1, strategy 2 (third strategy) for Player 2 and strategy 3 (fourth strategy) for Player 3 (Note the zero based indexing)  
 
 ###Shapley Value
 
