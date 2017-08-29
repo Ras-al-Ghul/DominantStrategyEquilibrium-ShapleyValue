@@ -1,6 +1,6 @@
-#Dominant Strategy Equilibria and Shapley Value
+# Dominant Strategy Equilibria and Shapley Value
 
-###Dominant Strategy Equilibria
+### Dominant Strategy Equilibria
 
 To run `python DSE.py <input nfg filename>`  
 
@@ -14,7 +14,7 @@ Third line should be blank, and the 4th line should contain all the payoffs as s
 Please ensure that there are no trailing spaces for the program to function properly.  
 An `example.nfg` has also been provided which has a `Strongly Dominant Strategy Equilibrium` at strategy 1 (second strategy) for Player1, strategy 2 (third strategy) for Player 2 and strategy 3 (fourth strategy) for Player 3 (Note the zero based indexing)  
 
-###Shapley Value
+### Shapley Value
 
 To run `python shapley.py <filename>`  
 
